@@ -1,0 +1,15 @@
+ .modal {
+    margin-top: 8rem;
+
+ }
+
+.modal-title-blue {
+    background-color: #0d6efd;
+   color: white;
+   height: 55px;
+ }
+ 
+ .foot button {
+   width: 90px;
+   margin-top: 10px; 
+ }
