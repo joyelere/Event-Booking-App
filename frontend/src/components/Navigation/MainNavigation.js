@@ -11,7 +11,7 @@ const MainNavigation = (props) => (
         <div>
           <Navbar bg="primary" data-bs-theme="dark">
             <Container>
-              <Navbar.Brand href="/">EasyEvent</Navbar.Brand>
+              <Navbar.Brand href="/">EventHub</Navbar.Brand>
               <Nav className="ml-auto">
                 {!context.token && (
                   <Nav.Link as={NavLink} to="/auth" activeClassName="active">
