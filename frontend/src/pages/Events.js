@@ -7,14 +7,6 @@ import EventList from "../components/Events/EventList/EventList";
 import Spinner from "../components/Spinner/Spinner";
 import "./Events.css";
 
-// const Eventspage = () => {
-
-//   const [show, setShow] = useState(false);
-
-//   const handleShow = () => setShow(true);
-
-//   const handleCancel = () => setShow(false);
-//   const handleConfirm =() => setShow(false);
 
 class Eventspage extends Component {
   state = {
@@ -86,22 +78,6 @@ class Eventspage extends Component {
         date: date,
         price: price,
       },
-      // query: `
-      //   mutation {
-      //     createEvent(eventInput: {
-      //       title: "${title}",
-      //       price: ${price},
-      //       date: "${date}",
-      //       description: "${description}"
-      //     }) {
-      //       _id
-      //       title
-      //       description
-      //       price
-      //       date
-      //     }
-      //   }
-      // `,
     };
 
     const token = this.context.token;
@@ -216,15 +192,6 @@ class Eventspage extends Component {
       variables: {
         id: this.state.selectedEvent._id,
       },
-      // query: `
-      //   mutation {
-      //     bookEvent(eventId: "${this.state.selectedEvent._id}"){
-      //       _id
-      //       createdAt
-      //       updatedAt
-      //     }
-      //   }
-      // `,
     };
 
     try {
