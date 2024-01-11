@@ -5,8 +5,8 @@ EventHub is a full-stack web application that enables users to create, view, and
 ## Project Structure
 The project is organized into separate folders for frontend and backend.
 
-- `frontend/`: Frontend code built with React.
-- `backend/`: Backend code built with Node.js, Express.js, GraphQL, and MongoDB.
+- `Event-Booking-App/frontend/`: Frontend code built with React.
+- `Event-Booking-App/backend/`: Backend code built with Node.js, Express.js, GraphQL, and MongoDB.
 
 ## Frontend
 
