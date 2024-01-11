@@ -116,8 +116,25 @@ The backend is built using Node.js, Express.js, GraphQL, and MongoDB.
 ### Configuration
 - `config.js`
 
+### Screenshots
+- Login Page
 <p align="center">
-  <img src="https://github.com/joyelere/Event-Booking-App/blob/main/img/Chart.jpg" alt="Project Logo">
+  <img src="https://github.com/joyelere/Event-Booking-App/blob/main/img/LoginPage.png?raw=true">
+</p>
+
+- Event Page
+  <p align="center">
+  <img src="https://github.com/joyelere/Event-Booking-App/blob/main/img/EventPage.png?raw=true">
+</p>
+
+- Booking Page
+  <p align="center">
+  <img src="https://github.com/joyelere/Event-Booking-App/blob/main/img/BookingPage.png?raw=true">
+</p>
+
+- Chart Page
+  <p align="center">
+  <img src="https://github.com/joyelere/Event-Booking-App/blob/main/img/Chart.png?raw=true">
 </p>
 
 
