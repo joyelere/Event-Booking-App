@@ -116,9 +116,8 @@ The backend is built using Node.js, Express.js, GraphQL, and MongoDB.
 ### Configuration
 - `config.js`
 
-## Screenshots
 <p align="center">
-  <img src="https://github.com/joyelere/Event-Booking-App/raw/main/img/Chart.png" alt="Project Logo">
+  <img src="https://github.com/joyelere/Event-Booking-App/blob/main/img/Chart.jpg" alt="Project Logo">
 </p>
 
 
