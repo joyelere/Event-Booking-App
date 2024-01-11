@@ -18,6 +18,7 @@ The frontend is built using React and includes features such as authentication, 
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Backend Integration](#backend-integration)
+- [Screenshots](#screenshots)
 - [License](#license)
 
 ### Features
@@ -114,6 +115,12 @@ The backend is built using Node.js, Express.js, GraphQL, and MongoDB.
 
 ### Configuration
 - `config.js`
+
+## Screenshots
+<p align="center">
+  <img src="https://github.com/your-username/easy-event/raw/main/images/project_logo.png" alt="Project Logo">
+</p>
+
 
 ## License
 
