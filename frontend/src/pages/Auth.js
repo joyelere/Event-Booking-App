@@ -43,28 +43,10 @@ class Authpage extends Component {
         email: email,
         password: password,
       },
-      // query: `
-      //   query {
-      //     login(email:"${email}", password:"${password}"){
-      //       userId
-      //       token
-      //       tokenExpiration
-      //     }
-      //   }
-      // `,
     };
 
     if (!this.state.isLogin) {
       requestBody = {
-        // .....old method....
-        // query: `
-        //   mutation {
-        //     createUser(userInput: {email: "${email}", password: "${password}"}){
-        //       _id
-        //       email
-        //     }
-        //   }
-        // `,
         query: `
           mutation CreateUser($email:String!,$password:String!){
             createUser(userInput: {email: $email, password: $password}){
@@ -134,31 +116,6 @@ class Authpage extends Component {
       this.setState({ errorMessage: err.message, successMessage: null });
     }
   };
-
-  //     if (res.status !== 200 && res.status !== 201) {
-  //       if (resData.errors) {
-  //         throw new Error(resData.errors[0].message);
-  //       } else {
-  //         throw new Error("Failed!");
-  //       }
-  //     }
-
-  //     // if (res.status !== 200 && res.status !== 201) {
-  //     //   throw new Error("Failed!");
-  //     // }
-
-  //     // const resData = await res.json();
-
-  //     if (resData.data.login && resData.data.login.token) {
-  //       const { token, userId, tokenExpiration } = resData.data.login;
-  //       this.context.login(token, userId, tokenExpiration);
-  //     }
-  //   } catch (err) {
-  //     console.log(err);
-
-  //     this.setState({ errorMessage: err.message });
-  //   }
-  // };
 
   render() {
     return (
