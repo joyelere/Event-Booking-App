@@ -115,7 +115,7 @@ The backend is built using Node.js, Express.js, GraphQL, and MongoDB.
 ### Configuration
 - `config.js`
 
-### License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
