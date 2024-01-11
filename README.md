@@ -5,8 +5,8 @@ EventHub is a full-stack web application that enables users to create, view, and
 ## Project Structure
 The project is organized into separate folders for frontend and backend.
 
-- `event-hub-frontend/`: Frontend code built with React.
-- `event-hub-backend/`: Backend code built with Node.js, Express.js, GraphQL, and MongoDB.
+- `frontend/`: Frontend code built with React.
+- `backend/`: Backend code built with Node.js, Express.js, GraphQL, and MongoDB.
 
 ## Frontend
 
@@ -31,7 +31,8 @@ The frontend is built using React and includes features such as authentication, 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/easy-event.git
+   git clone https://github.com/joyelere/Event-Booking-App.git
+   
 2. Navigate to the project directory:
    ```bash
    cd frontend
