@@ -35,7 +35,7 @@ The frontend is built using React and includes features such as authentication, 
    
 2. Navigate to the project directory:
    ```bash
-   cd frontend
+   cd Event-Booking-App/frontend
 3. Install frontend dependencies:
    ```bash
    npm install
@@ -89,7 +89,7 @@ The backend is built using Node.js, Express.js, GraphQL, and MongoDB.
 ### Setup
 1. Navigate to the backend directory:
    ```bash
-   cd backend
+   cd Event-Booking-App/backend
 2. Install backend dependencies:
    ```bash
    npm install
